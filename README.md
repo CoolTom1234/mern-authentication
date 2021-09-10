@@ -45,7 +45,12 @@ Frontend app uses an Nginx server to deliver static files.
 You may want to use the flag `--remove-orphans`
 
 To deploy on Heroku refer to their documentation:
-<https://devcenter.heroku.com/categories/deploying-with-docker>
+<https://devcenter.heroku.com/categories/deploying-with-docker>`
+
+## Monitoring host and containers
+
+In the root directory:
+`docker-compose -f compose-monitoring.yml up --build`
 
 ## :computer: Boilerplate
 
